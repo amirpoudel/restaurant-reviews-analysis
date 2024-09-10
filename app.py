@@ -2,7 +2,7 @@ import streamlit as st
 import re
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 
-model_path = "fine-tuned-model-bert-base-uncased"
+model_path = "fine-tuned-model"
 
 # Function to clean and normalize the text
 def clean_text(text):

@@ -35,7 +35,7 @@ def encode_labels(examples):
 # Apply label encoding to the dataset
 encoded_dataset = dataset.map(encode_labels)
 
-# Tokenize the Text
+# Tokenize the Text - replace with bert-base-multilingual-cased
 tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 
 def preprocess_and_tokenize(examples):

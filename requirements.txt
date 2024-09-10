@@ -1,2 +1,6 @@
 streamlit
 transformers
+torch
+datasets
+sklearn
+

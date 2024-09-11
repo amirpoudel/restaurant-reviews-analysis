@@ -81,7 +81,7 @@ class AspectSentimentAnalyzer:
             "environment": ["environment", "ambience", "atmosphere"],
             "price": ["price", "cost", "value", "expensive", "cheap"]
         }
-        
+
 
     def clean_text(self, text):
         """
@@ -110,7 +110,7 @@ class AspectSentimentAnalyzer:
         return found_aspects
 
 
-    def predict(self, text, aspects):
+    def predict(self, text):
         """
         Test sentiment for multiple aspects in a sentence.
         aspects: List of aspects to test.
